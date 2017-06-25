@@ -8,4 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
     var ctx = canvasArea.getContext("2d");
 
     ctx.fillRect(100, 50, 250, 50);
+    ctx.strokeRect(100, 120, 50, 100);
+    ctx.clearRect(120, 80, 80, 60);
+
+    ctx.moveTo(180, 200);
+    ctx.lineTo(250, 200);
+    ctx.lineTo(350, 300);
+    ctx.lineTo(250, 230);
+    ctx.fill();
 });
